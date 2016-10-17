@@ -1,5 +1,6 @@
 body{
-	background-color: blue;
+	background-color: white;
+
 }
 ul{
 	list-style: none;
@@ -13,6 +14,7 @@ ul{
 nav{
 	padding-right: 125px;
 	padding-left: 108px;
+	font-size: 14px;
 
 }
 .link{
