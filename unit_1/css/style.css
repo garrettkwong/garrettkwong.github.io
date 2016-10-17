@@ -1,0 +1,22 @@
+body{
+	background-color: blue;
+}
+ul{
+	list-style: none;
+}
+
+#fixed{
+	position: relative;
+	width: 100%;
+
+}
+nav{
+	padding-right: 125px;
+	padding-left: 108px;
+
+}
+.link{
+	float: right;
+	text-decoration:none;
+	margin-left:30px; 
+}
