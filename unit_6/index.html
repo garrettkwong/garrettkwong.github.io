@@ -2,14 +2,16 @@
 <html>
 <head>
 	<title>Garrett's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
-	<header>
-		<nav>
+	
+		<nav class="clearfix">
 			<ul>
 				<li class="name">
-					<a data-scroll href="#top">Garrett Kwong</a>
+					<a data-scroll href="#">Garrett Kwong</a>
 				</li>
 			</ul>
 			<ul class ="navLinks">
@@ -25,77 +27,76 @@
 
 			</ul>
 		</nav>
-	</header>
+	
 
 	<section class="parallax-1">
 
 		<div class="container">
-			<div id="heroIntro">
-				<h1>DESIGNS WITH CREATIVITY TO INSPIRE</h1>
-
-
-			</div>
-			<div id="heroButton">
-				<a href="#">&#65516;</a>
-          	</div>
-
+			<h1>DESIGNS WITH CREATIVITY TO INSPIRE</h1>
+			
+			<a href="#">&#65516;</a>
+          	
         </div>
 	
 	</section>
 	
 	<section class="workSection">
-		<div class="clearfix">
-			<div class="wrapper">
+		
+			<div class="wrapper clearfix">
 				<h2>WORK</h2>
-				<div class="project">
+				<div class="area-work">
+						<figure class="project effect-ming">
+							<div class="project-image">
+								<img src="images/sf.jpg" alt="sf">	
+								
+							</div>
+							<figcaption>
+								
+								<p>San Francisco</p>
+								<!-- <a href="work.html"></a> -->
+							</figcaption>
+						</figure>
+
 					
-						<div class="project-image">
-							<img src="images/sf.jpg" alt="sf">	
+						<figure class="project effect-ming">
+							<div class="project-image">
+								<img src="images/003.jpg" alt="tahoe">
+									
+							</div>
+							<figcaption>
+								<p>Lake Tahoe</p>
+							</figcaption>
 							
-						</div>
-					
-							<p class="project-title">San Francisco</p>
-				</div>
-				<div class="project">
-					<div class="project-image">
-							<img src="images/003.jpg" alt="tahoe">
-							
-						</div>
+						</figure>
+						<figure class="project effect-ming">
+							<div class="project-image">
+								<img src="images/LA.jpg" alt="LA">			
+							</div>
+							<figcaption>
+								<p>Los Angeles</p>
+							</figcaption>
 						
-							<p class="project-title">Lake Tahoe</p>
-						
+						</figure>
+						<figure class="project effect-ming">
+							<div class="project-image">
+								<img src="images/SD.jpg" alt="SD">	
+								
+							</div>
+							<figcaption>
+								<p>San Deigo</p>
+							</figcaption>
+						</figure>
+					<div class="project">
 						
 					</div>
-				<div class="project">
-					<div class="project-image">
-							<img src="images/LA.jpg" alt="LA">	
-							
-						</div>
-					
-							<p class="project-title">Los Angeles</p>
-						
-				
-				</div>
-				<div class="project">
-					<div class="project-image">
-							<img src="images/SD.jpg" alt="SD">	
-							
-						</div>
-					
-							<p class="project-title">San Deigo</p>
-						
-				
-				</div>
-				<div class="project">
-					
-				</div>
-				<div class="project"></div>
-				<div class="project"></div>
-				<div class="project"></div>
+					<div class="project"></div>
+					<div class="project"></div>
+					<div class="project"></div>
 
 				
+				</div>
 			</div>
-		</div>
+		
 	</section>
 
 	<section class="parallax-2">
@@ -103,15 +104,13 @@
 	</section>
 
 	<section class="aboutMe">
-		<div class="clearfix">
-			<div class="grid-12 columns-12">
+		
+			<div class="grid-12 columns-12 clearfix">
 
 					<div class="col-7">
 						<img src="images/about.jpg" alt="picture of Garrett" title="picture of Garrett">		
 					</div>
-					<!-- <div class="col-1">
-						<div>&nbsp;</div>
-					</div> -->
+					
 					<aside class="col-4">
 						<div class="content">
 							<h2>ABOUT</h2>
@@ -134,7 +133,7 @@
 
 		
 			</div>
-		</div>
+		
 	</section>
 	<footer>
 		<p>Copyright &copy; 2016 Garrett Kwong. All rights reserved.</p>
