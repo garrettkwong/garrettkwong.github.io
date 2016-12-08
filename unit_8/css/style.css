@@ -1,0 +1,681 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: white;
+	margin-right: 0%;
+	margin-left: 0%;
+	margin-top: -5%;
+	font-size: 16px;
+
+
+}
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	letter-spacing: 4px;
+	margin-bottom: 0;
+	margin-top: 0;
+
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #16407f;
+}
+/*top navigation settings*/
+
+/*nav container for positioning*/
+nav{
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	margin-top: 0;
+	width: 100%;
+	overflow: hidden;
+	border-bottom: none;
+	background-color: #fff;
+	padding-right: 4%;
+	padding-left: 4%;
+	padding-bottom: 1%;
+	font-size: .75em;
+	
+
+
+}
+
+/*nav style*/
+nav a{
+	text-decoration:none;
+	margin-left:2%; 
+	margin-top: 5%;
+	text-align: center;
+	display: inline-block;
+
+}
+/*right side nav font styles*/
+.navLinks a{
+	float: right;
+	font-family: 'Roboto', sans-serif;
+  	text-transform: uppercase;
+ 	letter-spacing: .25em;
+}
+
+/*right nav link style*/
+.navLinks a:hover{
+	color: #808080;
+}
+
+.navLinks a:active{
+	color: #16407f;
+
+}
+
+
+/*left side nav home button position and style*/
+.name a{
+  float: left;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  margin-left: 0;
+}
+/*left nav style*/
+.name a:hover{
+	color: #808080;
+}
+
+.name a:active{
+	color: #16407f;
+}
+
+
+/*hero splash page*/
+section.parallax-1{
+	background: url("../images/1.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 100vh;
+	margin-top: 5%;
+}
+/*hero container*/
+.container{
+	display: block;
+	margin: 0 auto;
+	width: 35%;
+	padding-top: 75vh;
+	text-align: center;
+
+}
+#heroIntro{
+	height: 100%;
+	width: 100%;
+
+
+}
+.container h1{
+	font-family: 'Slabo 27px',serif;
+	width: 60%;
+	border: 2px solid #16407f;
+	text-align: center;
+	color: white;
+	margin:auto;
+	padding: 1%;
+	font-size: 1.5em;
+}
+#heroButton{
+	height: 100%;
+	width: 100%;
+
+
+}
+
+.container a{
+	text-decoration: none;
+	font-size: 4.5em;
+	color: #fff;
+
+
+}
+
+.container a:hover{
+	color: #808080;
+}
+
+.container a:active{
+	color: #fff;
+}
+
+
+/*work portfolio section*/
+section.workSection{
+
+	width: 100%;
+	background-color: white;
+	background-size: auto;
+	padding-bottom: 3%;
+	padding-top: 2%;
+
+}
+.wrapper{
+	background-color: white;
+	min-width: 60%;
+	width: 100%;
+
+}
+.wrapper h2{
+
+	margin: 0 auto;
+	font-size: 1.4em;
+	text-align: center;
+
+	padding-bottom: 1em;
+	color: #16407f;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	overflow: auto;
+	content: "";
+	display: block;
+	clear: both;
+	font-size: 0;
+	height: 0;
+}
+
+/*work box section*/
+.project{
+	float: left;
+	width: 25%;
+	height: 20em;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	/*margin-bottom: 45px;*/
+
+}
+.project:nth-child(4){
+	padding-right: 0;
+}
+
+
+.project-image{
+	margin-bottom: 3%;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+
+
+}
+
+.project-image img{
+	top: 0;
+	left: -115px;
+	width: 800px;
+	position: relative;
+	max-width: 1600px;
+
+}
+
+
+.project figcaption p {
+	font-family: 'Roboto',sans-serif;
+	text-align: center;
+	color: #fff;
+	font-size: 1.3em;
+	text-transform: uppercase;
+    letter-spacing: 2px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.area-work{
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+
+
+}
+/*figure hover positioning*/
+.area-work figure {
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	cursor: pointer;
+
+
+}
+
+/*overall hover with square and opacity */
+.area-work figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+    letter-spacing: 2px;
+	font-size: 1em;
+    padding-top: 50px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.area-work figure figcaption::before,
+.area-work figure figcaption::after {
+	pointer-events: none;
+}
+
+.area-work figure figcaption,
+.area-work figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 99%;
+	height: 98%;
+
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.area-work figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+    
+}
+
+/*for h2 style for ming effect*/
+.area-work figure h2 {
+	word-spacing: 0.5em;
+	font-weight: 300;
+}
+
+.area-work figure h2 span {
+	font-weight: 300;
+}
+
+.area-work figure h2,
+.area-work figure p {
+	margin: 0;
+}
+
+
+
+
+
+/*Individual effect */
+
+/*---------------
+     Ming 
+---------------*/
+/*hover effect box*/
+figure.effect-ming {
+	/*background: #030c17;*/
+}
+
+figure.effect-ming img {
+	opacity: 0.9;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+/*Square on hover*/
+@media screen and (min-width: 802px){
+figure.effect-ming figcaption::before {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	border: 2px solid #fff;
+	box-shadow: 0 0 0 30px rgba(255,255,255,0.2);
+	content: '';
+	opacity: 0;
+
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(1.4,1.4,1);
+	transform: scale3d(1.4,1.4,1);
+}
+
+figure.effect-ming h2 {
+	margin: 20% 0 20% 0;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.effect-ming p {
+	padding: 1em;
+  	padding-top: 5.25em;
+	opacity: 0;
+	color: #fff;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+figure.effect-ming:hover h2 {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+figure.effect-ming:hover figcaption::before,
+figure.effect-ming:hover p {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+figure.effect-ming:hover figcaption {
+	background-color: rgba(15,15,15,.5);
+	/*rgba(254,216,197,0.2);*/
+}
+
+figure.effect-ming:hover img {
+	opacity: 0.4;
+}
+}
+/*parallax 2 */
+section.parallax-2{
+	background: url("../images/2.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 90vh;
+}
+
+/*aboutMe section*/
+.aboutMe{
+	width: 100%;
+	padding-bottom: 3em;
+	padding-top: 4.3em; 
+
+}
+
+.grid-12{
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+
+}
+
+.col-7{
+	width: 50%;
+	float: left;
+	vertical-align: top;
+	padding-right: 5px;
+
+}
+/*image for about section*/
+.col-7 img{
+	width: 85%;
+
+}
+
+
+.col-4{
+	width: 50%;
+	float: right;
+	/*padding: 5px;*/
+	vertical-align: top;
+
+
+}
+
+.col-4 h2{
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 20px;
+	font-size: 1.4em;
+	color: #16407f;
+	font-weight: 100;
+    text-align: center;
+	
+
+}
+
+.content p{
+	font-family: 'Roboto',sans-serif;
+	font-weight: 100;
+	font-size: .9em;
+	line-height: 1.9em;
+	width: 100%;
+	color: #808080;
+
+}
+
+.contentInfo{
+	margin:0 0 1.5em;
+}
+
+footer{
+	width: 100%;
+
+	bottom: 0;
+	left: 0;
+	background-color: #f4f4f2;
+
+	text-align: center;
+	clear: both;
+	color: #808080;
+
+ 
+}
+footer p{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	padding: 15px 15px;
+	font-weight: 100;
+	font-size: 1em;
+}
+
+@media only screen and (max-width: 1130px ) {
+	body{
+		font-size: 14px;
+	}
+	.container{
+		width: 42%;
+	}
+	.project{
+		float:none;
+		display: inline-block;
+		width: 49.83%;
+	}
+	.project:nth-child(2){
+		padding-right: 0;
+	}
+	.area-work figure figcaption,
+	.area-work figure figcaption > a {
+		width: 100%;
+			
+	}
+	.grid-12{
+		width: 75%;
+	}
+	.col-7{
+		/*float: none;*/
+		/*display: block;*/
+		width: 40%;
+	}
+	.col-7 img{
+		width: 100%;
+	}
+	.col-4{
+	/*	float: none;
+		display: block;*/
+		width: 50%;
+	}
+	figure.effect-ming p{
+		padding-top: 78px;
+	}
+}
+@media only screen and (max-width: 1034px){
+	.project{
+		width: 49.82%;
+	}
+}
+@media only screen and (max-width: 978px){
+	.project{
+		width: 49.8%;
+	}
+}
+@media only screen and (max-width: 882px){
+	.project{
+		width: 49.78%;
+	}
+}
+@media only screen and (max-width: 802px){
+	body{
+		font-size: 13px;
+	}
+	.container{
+		width: 52%;
+	}
+
+	.project{
+		float:none;
+		display: inline-block;
+		width: 49.77%;
+		padding-right: 0;
+	}
+	.grid-12{
+		width: 85%;
+	}
+	.col-7{
+		/*float: none;*/
+		/*display: block;*/
+		width: 40%;
+	}
+	.col-7 img{
+		width: 100%;
+	}
+	.col-4{
+		float: right;
+		width: 50%;
+		padding: 0;
+	}	
+	.area-work figcaption p{
+		color: white;
+
+	}
+	.area-work figure figcaption {
+		padding-top: 189px;
+		padding-left: 0;
+		padding-right:0;
+		padding-bottom: 0;
+
+	}
+	figure.effect-ming p{
+	    padding-top: 25px;
+	    padding-bottom: 25px;
+	    background-color: rgba(15,15,15,.5);
+
+
+	}
+
+}
+@media only screen and (max-width: 714px){
+	.project{
+		width: 49.75%;
+	}
+}
+@media only screen and (max-width: 652px){
+	nav{
+	    padding-bottom: 10px;
+	}
+	.project{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 400px){
+	body{
+		font-size: 12px;
+	}
+	nav{
+		width: 100%;
+
+	}
+	.navLinks a{
+		float: right;
+		/*text-align: center;*/
+		display: block;
+	    margin: 0;
+	    margin-top: 4%;
+	    padding: 10px;
+	}
+	.navLinks li{
+		width: 78%;
+
+		/*display: inline-block;*/
+	}
+	.name a{
+		float: none;
+		text-align: center;
+		width: 100%;
+		padding-top: 3%;
+		padding-bottom: 2%;
+		margin-bottom: 2%;
+		margin-top: 4%;
+
+	}
+	
+	.container{
+		width: 100%;
+	}
+	section.workSection{
+		padding-top: 3%;
+		padding-bottom: 0;
+	}
+	.project{
+		width: 100%;
+		padding-right: 0;
+	}
+	.area-work figcaption p{
+		color: white;
+
+	}
+	.area-work figure figcaption {
+		padding-top: 170px;
+		padding-left: 0;
+		padding-right:0;
+		padding-bottom: 0;
+
+	}
+	figure.effect-ming p{
+	    padding-top: 25px;
+	    padding-bottom: 25px;
+	    background-color: rgba(15,15,15,.5);
+
+
+	}
+	.grid-12{
+		width: 100%;
+	}
+	.col-7{
+		float: none;
+		width: 100%;
+		padding-right: 2.5%;
+		padding-left: 2.5%;
+	}
+	.col-7 img{
+		width: 100%;
+
+	}
+	.col-4{
+		float: none;
+		display: block;
+		width: 100%;
+		padding: 4%;
+	
+	}
+	
+}
+
