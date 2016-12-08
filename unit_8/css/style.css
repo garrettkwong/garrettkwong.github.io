@@ -487,7 +487,7 @@ footer p{
 	.project{
 		float:none;
 		display: inline-block;
-		width: 49.83%;
+		width: 49.8%;
 	}
 	.project:nth-child(2){
 		padding-right: 0;
@@ -519,17 +519,32 @@ footer p{
 }
 @media only screen and (max-width: 1034px){
 	.project{
-		width: 49.82%;
+		width: 49.8%;
+	}
+}
+@media only screen and (max-width: 1007px){
+	.project{
+		width: 49.7%;
 	}
 }
 @media only screen and (max-width: 978px){
 	.project{
-		width: 49.8%;
+		width: 49.7%;
 	}
 }
 @media only screen and (max-width: 882px){
 	.project{
-		width: 49.78%;
+		width: 49.77%;
+	}
+}
+@media only screen and (max-width: 878px){
+	.project{
+		width: 49.76%;
+	}
+}
+@media only screen and (max-width: 839px){
+	.project{
+		width: 49.77%;
 	}
 }
 @media only screen and (max-width: 802px){
