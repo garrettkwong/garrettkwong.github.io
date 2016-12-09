@@ -476,7 +476,18 @@ footer p{
 	font-weight: 100;
 	font-size: 1em;
 }
+@media only screen and (min-width: 1800px){
+	body{
+		font-size: 24px;
+	}
+	.project{
+		height: 13em;
+	}
+	figure.effect-ming p{
+		padding-top: 96px;
+	}
 
+}
 @media only screen and (max-width: 1130px ) {
 	body{
 		font-size: 14px;
@@ -540,6 +551,11 @@ footer p{
 @media only screen and (max-width: 878px){
 	.project{
 		width: 49.76%;
+	}
+}
+@media only screen and (max-width: 843px){
+	.project{
+		width: 49.7%;
 	}
 }
 @media only screen and (max-width: 839px){
@@ -610,7 +626,7 @@ footer p{
 		width: 100%;
 	}
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 425px){
 	body{
 		font-size: 12px;
 	}
@@ -627,7 +643,7 @@ footer p{
 	    padding: 10px;
 	}
 	.navLinks li{
-		width: 78%;
+		width: 76%;
 
 		/*display: inline-block;*/
 	}
@@ -693,4 +709,13 @@ footer p{
 	}
 	
 }
-
+@media only screen and (max-width: 375px){
+	.navLinks li{
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 320px){
+	.navLinks li{
+		width: 85%;
+	}
+}
