@@ -560,7 +560,12 @@ footer p{
 }
 @media only screen and (max-width: 839px){
 	.project{
-		width: 49.77%;
+		width: 49.75%;
+	}
+}
+@media only screen and (max-width: 839px){
+	.project{
+		width: 49.7%;
 	}
 }
 @media only screen and (max-width: 802px){
