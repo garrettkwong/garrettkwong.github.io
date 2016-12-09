@@ -330,7 +330,7 @@ figure.effect-ming img {
 }
 
 /*Square on hover*/
-@media screen and (min-width: 802px){
+@media screen and (min-width: 803px){
 figure.effect-ming figcaption::before {
 	position: absolute;
 	top: 30px;
@@ -636,7 +636,6 @@ footer p{
 	}
 	.navLinks a{
 		float: right;
-		/*text-align: center;*/
 		display: block;
 	    margin: 0;
 	    margin-top: 4%;
@@ -644,8 +643,6 @@ footer p{
 	}
 	.navLinks li{
 		width: 76%;
-
-		/*display: inline-block;*/
 	}
 	.name a{
 		float: none;
