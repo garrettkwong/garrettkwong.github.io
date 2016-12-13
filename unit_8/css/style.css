@@ -6,6 +6,9 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	
 }
 body{
 	background-color: white;
@@ -106,6 +109,10 @@ nav a{
 section.parallax-1{
 	background: url("../images/1.jpg") no-repeat center center fixed;
 	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	height: 1000px;
 	height: 100vh;
 	margin-top: 5%;
 }
@@ -114,6 +121,7 @@ section.parallax-1{
 	display: block;
 	margin: 0 auto;
 	width: 35%;
+	padding-top: 420px;
 	padding-top: 75vh;
 	text-align: center;
 
@@ -160,7 +168,6 @@ section.parallax-1{
 
 /*work portfolio section*/
 section.workSection{
-
 	width: 100%;
 	background-color: white;
 	background-size: auto;
@@ -341,7 +348,6 @@ figure.effect-ming figcaption::before {
 	box-shadow: 0 0 0 30px rgba(255,255,255,0.2);
 	content: '';
 	opacity: 0;
-
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale3d(1.4,1.4,1);
@@ -390,7 +396,12 @@ figure.effect-ming:hover img {
 section.parallax-2{
 	background: url("../images/2.jpg") no-repeat center center fixed;
 	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	height: 1000px;
 	height: 90vh;
+	
 }
 
 /*aboutMe section*/
@@ -478,13 +489,19 @@ footer p{
 }
 @media only screen and (min-width: 1800px){
 	body{
-		font-size: 24px;
+		font-size: 22px;
+	}
+	.container{
+		max-width: 645px;
 	}
 	.project{
 		height: 13em;
 	}
 	figure.effect-ming p{
-		padding-top: 96px;
+		padding-top: 80px;
+	}
+	.grid-12{
+		max-width: 1050px;
 	}
 
 }
@@ -713,11 +730,11 @@ footer p{
 }
 @media only screen and (max-width: 375px){
 	.navLinks li{
-		width: 80%;
+		width: 79%;
 	}
 }
 @media only screen and (max-width: 320px){
 	.navLinks li{
-		width: 85%;
+		width: 84%;
 	}
 }
