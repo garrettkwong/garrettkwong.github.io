@@ -231,6 +231,7 @@ section.workSection{
 	width: 800px;
 	position: relative;
 	max-width: 1600px;
+	min-width: 385px;
 
 }
 
@@ -429,7 +430,7 @@ section.parallax-2{
 /*image for about section*/
 .col-7 img{
 	width: 85%;
-
+	min-width: 237px;
 }
 
 
